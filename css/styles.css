@@ -61,6 +61,7 @@ ul {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 32px;
+  border-botom: 1px solid #ececec;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -207,6 +208,7 @@ ul {
   flex-direction: column;
   padding-bottom: 94px;
   align-items: center;
+  background-color: #f5f4fa;
 }
 .team-list {
   display: flex;
@@ -215,8 +217,7 @@ ul {
   margin-right: 30px;
 }
 .team-item {
-  border-style: solid;
-  box-shadow: #757575;
+  background-color: #ffffff;
   border-radius: 0 0 4px 4px;
 }
 .team-data {
