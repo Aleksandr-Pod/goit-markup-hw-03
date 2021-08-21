@@ -60,11 +60,6 @@ h6 {
   align-items: center;
   border-botom: 1px solid #ececec;
 }
-.header-menu-item .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -82,41 +77,47 @@ h6 {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-left: 94px; /* отступ от логотипа*/
 }
 .header-menu {
   display: flex;
-  align-items: center;
+  margin-left: 94px; /* отступ от логотипа*/
 }
 .header-menu-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.header-menu-item .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-addr {
   display: flex;
   margin-left: auto;
 }
+.header-addr .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .item + .item {
   margin-left: 50px;
-} /* отступ от последующих элементов - а он один*/
+} /* отступ в адрессеот последующих элементов - а он один*/
 
 .blacklink {
   color: var(--maintext-color);
 }
 
 .hero .container {
-  padding: 200px 0;
+  padding: 200px 252px;
   background-color: #2f303a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .hero-header {
-  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -125,7 +126,6 @@ h6 {
 .hero-button {
   margin-top: 30px;
   padding: 10px 32px;
-
   border-radius: 4px;
   border-style: none;
 
@@ -146,9 +146,8 @@ h6 {
 }
 .features-items {
   width: 270px;
-  display: flex;
-  flex-direction: column;
 }
+
 .features-items:not(:last-child) {
   margin-right: 30px;
 }
@@ -165,34 +164,43 @@ h6 {
 }
 .features-list-text {
   padding-right: 10px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .what-we-do-header {
+  text-align: center;
+  margin-bottom: 50px;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 
   color: var(--maintext-color);
-  margin-bottom: 50px;
 }
 .what-we-do .container {
-  display: flex;
-  flex-direction: column;
   padding-bottom: 94px;
-  align-items: center;
 }
+img {
+  display: block;
+}
+
 .what-we-do-list {
   display: flex;
-  padding-left: 0;
 }
+
 .what-we-do-item:not(:last-child) {
   margin-right: 30px;
 }
 
+.team .container {
+  padding-bottom: 94px;
+  align-items: center;
+  background-color: #f5f4fa;
+}
 .team-header {
   margin-bottom: 50px;
 
@@ -202,13 +210,6 @@ h6 {
   letter-spacing: 0.03em;
 
   color: var(--maintext-color);
-}
-.team .container {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 94px;
-  align-items: center;
-  background-color: #f5f4fa;
 }
 .team-list {
   display: flex;
@@ -221,10 +222,8 @@ h6 {
   border-radius: 0 0 4px 4px;
 }
 .team-data {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 30px 0;
+  text-align: center;
 }
 .team-name {
   margin-bottom: 10px;
@@ -268,8 +267,6 @@ h6 {
 }
 .footer-list {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
 }
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
