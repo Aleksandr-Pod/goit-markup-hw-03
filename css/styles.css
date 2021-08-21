@@ -14,11 +14,8 @@ h2,
 h3,
 h4,
 h5,
-h6,
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+h6 {
+  margin: 0;
 }
 .visually-hidden {
   position: absolute;
@@ -32,6 +29,8 @@ ul {
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -59,10 +58,14 @@ ul {
 .header-page .container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 32px;
   border-botom: 1px solid #ececec;
 }
+.header-menu-item .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -79,7 +82,7 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-left: 94px;
+  margin-left: 94px; /* отступ от логотипа*/
 }
 .header-menu {
   display: flex;
@@ -90,14 +93,11 @@ ul {
 }
 .header-addr {
   display: flex;
-  align-items: center;
-  /* margin-top: 32px; */
   margin-left: auto;
-  margin-right: 0;
 }
-.header-addr-item:not(:last-child) {
-  margin-right: 50px;
-}
+.item + .item {
+  margin-left: 50px;
+} /* отступ от последующих элементов - а он один*/
 
 .blacklink {
   color: var(--maintext-color);
@@ -262,15 +262,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.header-addr {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 .footer .container {
-  display: flex;
-  flex-direction: column;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -278,7 +270,6 @@ ul {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  padding-left: 0;
 }
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
