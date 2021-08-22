@@ -45,8 +45,8 @@ h6 {
 /* ------------INDEX--------------- */
 .container {
   width: 1200px;
-  padding: 94px 15px;
-  margin: 0, auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .header-page {
   font-weight: 500;
@@ -108,13 +108,19 @@ h6 {
   color: var(--maintext-color);
 }
 
-.hero .container {
-  padding: 200px 252px;
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
-  text-align: center;
+}
+.hero .container {
 }
 
 .hero-header {
+  width: 696px;
+  margin: 0 auto;
+  text-align: center;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -124,8 +130,10 @@ h6 {
   color: #ffffff;
 }
 .hero-button {
-  margin-top: 30px;
+  display: block;
+  margin: 30px auto 0 auto;
   padding: 10px 32px;
+
   border-radius: 4px;
   border-style: none;
 
@@ -140,13 +148,16 @@ h6 {
 .btn {
   cursor: pointer;
 }
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .features-list {
   display: flex;
 }
 .features-items {
   width: 270px;
 }
-
 .features-items:not(:last-child) {
   margin-right: 30px;
 }
@@ -180,8 +191,8 @@ h6 {
 
   color: var(--maintext-color);
 }
-.what-we-do .container {
-  padding-top: 0;
+.what-we-do {
+  padding-bottom: 94px;
 }
 img {
   display: block;
@@ -194,7 +205,9 @@ img {
 .what-we-do-item:not(:last-child) {
   margin-right: 30px;
 }
-
+.team {
+  padding-bottom: 94px;
+}
 .team .container {
   padding-top: 0;
   text-align: center;
@@ -241,6 +254,8 @@ img {
 }
 .footer {
   background-color: #757575;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footerlogo {
   color: #ffffff;
@@ -260,10 +275,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .footer-list {
   margin-top: 20px;
 }
@@ -277,7 +288,16 @@ img {
   color: var(--activebutton-textcolor);
   background-color: #2196f3;
 }
+.filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .filter-button {
+  background-color: #f5f4fa;
+  border-style: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -287,9 +307,7 @@ img {
 
   color: var(--maintext-color);
 }
-.filter .container {
-  padding: 94px 15px;
-}
+
 .filter-list {
   display: flex;
   justify-content: center;
