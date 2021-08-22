@@ -58,7 +58,7 @@ h6 {
 .header-page .container {
   display: flex;
   align-items: center;
-  border-botom: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -198,7 +198,7 @@ img {
 
 .team .container {
   padding-bottom: 94px;
-  align-items: center;
+  text-align: center;
   background-color: #f5f4fa;
 }
 .team-header {
@@ -288,11 +288,35 @@ img {
 
   color: var(--maintext-color);
 }
-
-.filter {
+.filter .container {
+  padding: 94px 15px;
+}
+.filter-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.gallery-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
+.gallery-data {
+  padding: 20px 24px;
+}
 .gallery-header {
+  margin-bottom: 4px;
+
   font-weight: bold;
   font-size: 18px;
   line-height: 2;

@@ -52,146 +52,156 @@
 
     <main>
       <section class="filter">
-        <ul class="list">
-          <li>
-            <button class="filter-button btn" type="button">Все</button>
-          </li>
-          <li>
-            <button class="filter-button btn" type="button">Веб-сайты</button>
-          </li>
-          <li>
-            <button class="filter-button btn" type="button">Приложения</button>
-          </li>
-          <li>
-            <button class="filter-button btn" type="button">Дизайн</button>
-          </li>
-          <li>
-            <button class="filter-button btn" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="list">
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img1-laptop.jpg"
-                alt="laptop"
-                width="370"
-                height="294"
-              />
-              <p>какой-то текст поверх картинки</p>
-              <h2 class="link gallery-header">Технокряк</h2>
-              <p class="gallery-type">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img2-basketball.jpg"
-                alt="poster"
-                width="370"
-                height="294"
-              />
-              <h2 class="link gallery-header">
-                Постер <span lang="en">Orlean vs Golden Star</span>
-              </h2>
-              <p class="gallery-type">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img3-seafood.jpg"
-                alt="laptop"
-                width="370"
-                height="294"
-              />
-              <h2 class="link gallery-header">
-                Ресторан <span lang="en">Seafood,</span>
-              </h2>
-              <p class="gallery-type">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img4-headphones.jpg"
-                alt="laptop"
-                width="370"
-                height="294"
-              />
-              <h2 class="link gallery-header">Проект Prime</h2>
-              <p class="gallery-type">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img5-boxes.jpg"
-                alt="laptop"
-                width="370"
-                height="294"
-              />
-              <h2 class="link gallery-header">
-                Проект <span lang="en"> Boxes</span>
-              </h2>
-              <p class="gallery-type">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img6-monitor.jpg"
-                alt="laptop"
-                width="370"
-                height="294"
-              />
-              <h2 class="link gallery-header" lang="en">
-                Inspiration has no Borders
-              </h2>
-              <p class="gallery-type">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img7-magazine.jpg"
-                alt="laptop"
-                width="370"
-                height="294"
-              />
-              <h2 class="link gallery-header">
-                Издание <span lang="en">Limited Edition</span>
-              </h2>
-              <p class="gallery-type">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img8-label.jpg"
-                alt="laptop"
-                width="370"
-                height="294"
-              />
-              <h2 class="link gallery-header">
-                Проект <span lang="en">LAB</span>
-              </h2>
-              <p class="gallery-type">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/portfolio/img9-workonlaptop.jpg"
-                alt="laptop"
-                width="370"
-                height="294"
-              />
-              <h2 class="link gallery-header" lang="en">Growing Business</h2>
-              <p class="gallery-type">Приложение</p>
-            </a>
-          </li>
-        </ul>
+        <h2 class="visually-hidden">Галерея</h2>
+        <div class="container">
+          <ul class="filter-list list">
+            <li class="filter-item">
+              <button class="filter-button btn" type="button">Все</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button btn" type="button">
+                Приложения
+              </button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button btn" type="button">Дизайн</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+        
+          <ul class="gallery-list list">
+            <li class="gallery-item">
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img1-laptop.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                />
+                <p>какой-то текст поверх картинки</p>
+                <div class="gallery-data">
+                <h2 class="link gallery-header">Технокряк</h2>
+                <p class="gallery-type">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item>
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img2-basketball.jpg"
+                  alt="poster"
+                  width="370"
+                  height="294"
+                />
+                <div class="gallery-data">
+                  <h2 class="link gallery-header">
+                    Постер <span lang="en">Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="gallery-type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item>
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img3-seafood.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                /><div class="gallery-data">
+                <h2 class="link gallery-header">
+                  Ресторан <span lang="en">Seafood,</span>
+                </h2>
+                <p class="gallery-type">Приложение</p></div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img4-headphones.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                /><div class="gallery-data">
+                <h2 class="link gallery-header">Проект Prime</h2>
+                <p class="gallery-type">Маркетинг</p></div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img5-boxes.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                /><div class="gallery-data">
+                <h2 class="link gallery-header">
+                  Проект <span lang="en"> Boxes</span>
+                </h2>
+                <p class="gallery-type">Приложение</p></div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img6-monitor.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                /><div class="gallery-data">
+                <h2 class="link gallery-header" lang="en">
+                  Inspiration has no Borders
+                </h2>
+                <p class="gallery-type">Веб-сайт</p></div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img7-magazine.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                /><div class="gallery-data">
+                <h2 class="link gallery-header">
+                  Издание <span lang="en">Limited Edition</span>
+                </h2>
+                <p class="gallery-type">Дизайн</p></div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img8-label.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                /><div class="gallery-data">
+                <h2 class="link gallery-header">
+                  Проект <span lang="en">LAB</span>
+                </h2>
+                <p class="gallery-type">Маркетинг</p></div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="" class="link">
+                <img
+                  src="./images/portfolio/img9-workonlaptop.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                /><div class="gallery-data">
+                <h2 class="link gallery-header" lang="en">Growing Business</h2>
+                <p class="gallery-type">Приложение</p></div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
