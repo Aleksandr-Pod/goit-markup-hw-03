@@ -45,8 +45,7 @@ h6 {
 /* ------------INDEX--------------- */
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 94px 15px;
   margin: 0, auto;
 }
 .header-page {
@@ -58,6 +57,7 @@ h6 {
 .header-page .container {
   display: flex;
   align-items: center;
+  padding: 0 15px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -142,7 +142,6 @@ h6 {
 }
 .features-list {
   display: flex;
-  padding: 94px 0;
 }
 .features-items {
   width: 270px;
@@ -182,7 +181,7 @@ h6 {
   color: var(--maintext-color);
 }
 .what-we-do .container {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 img {
   display: block;
@@ -197,7 +196,7 @@ img {
 }
 
 .team .container {
-  padding-bottom: 94px;
+  padding-top: 0;
   text-align: center;
   background-color: #f5f4fa;
 }
