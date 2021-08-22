@@ -313,6 +313,7 @@ img {
 
 .gallery-data {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .gallery-header {
   margin-bottom: 4px;
