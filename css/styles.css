@@ -49,6 +49,8 @@ h6 {
   margin: 0 auto;
 }
 .header-page {
+  border-bottom: 1px solid #ececec;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,7 +60,6 @@ h6 {
   display: flex;
   align-items: center;
   padding: 0 15px;
-  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -80,7 +81,7 @@ h6 {
 }
 .header-menu {
   display: flex;
-  margin-left: 94px; /* отступ от логотипа*/
+  margin-left: 94px;
 }
 .header-menu-item:not(:last-child) {
   margin-right: 50px;
@@ -102,7 +103,7 @@ h6 {
 }
 .item + .item {
   margin-left: 50px;
-} /* отступ в адрессеот последующих элементов - а он один*/
+} /* отступ в адрессе от последующих элементов - а он один*/
 
 .blacklink {
   color: var(--maintext-color);
@@ -206,14 +207,14 @@ img {
   margin-right: 30px;
 }
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .team .container {
-  padding-top: 0;
-  text-align: center;
-  background-color: #f5f4fa;
+  /* background-color: #f5f4fa; */
 }
 .team-header {
+  text-align: center;
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -311,7 +312,7 @@ img {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
